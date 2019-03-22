@@ -1,0 +1,27 @@
+{
+    "name": "Phalcon structure by Lucas Schnr",
+    "description": "This is a sample application for the Phalcon PHP Framework",
+    "version": "1.2.0",
+    "keywords": [
+        "phalcon",
+        "framework",
+        "sample app"
+    ],
+    "type": "library",
+    "license": "BSD-3",
+    "homepage": "https://www.phalconphp.com",
+    "authors" : [
+        {
+            "name" : "Lucas Schnr",
+            "email" : "contato.schnr@gmail.com"
+        }
+
+    ],
+    "require": {
+        "php": ">=5.5",
+        "ext-phalcon": "~3.0"
+    },
+    "require-dev": {
+        "phalcon/dd": "~1.1.0"
+    }
+}

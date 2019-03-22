@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d914fd6b-4dc9-4d93-8242-b56e9b149139" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/library/third_party_libs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/index/index.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/helpers/ArrayHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/helpers/JsonHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/helpers/NavigationDataHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/languages/en-us.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dumps/last_sql_dumps.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/uploads_directory.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/loader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/privateResources.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/AboutController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ControllerBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ControllerBase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/PermissionsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/PrivacyController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ProfilesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/SessionController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/TermsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/UserControlController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/UsersController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/forms/ChangePasswordForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/forms/ForgotPasswordForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/forms/LoginForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/forms/ProfilesForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/forms/SignUpForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms/modelForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/forms/UsersForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/library/Acl/Acl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/library/Auth/Auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/library/Auth/Exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/library/Mail/Exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/library/Mail/Mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/EmailConfirmations.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/FailedLogins.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/PasswordChanges.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Permissions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Profiles.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/RememberTokens.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/ResetPasswords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/SuccessLogins.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/about/index.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/emailTemplates/confirmation.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/emailTemplates/reset.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/index.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/index/index.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/emailTemplates.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/private.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/public.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/permissions/index.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/privacy/index.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profiles/create.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profiles/edit.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profiles/index.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profiles/search.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/session/forgotPassword.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/session/login.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/session/signup.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/terms/index.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/changePassword.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/create.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/edit.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/index.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/search.volt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/acl/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/metaData/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/swift/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/volt/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/facebook.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/feature-gradient.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/twitter.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/vokuro-postgresql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/vokuro.sql" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CheckerLib</find>
+      <find>Meg</find>
+      <find>SharedFactory</find>
+      <find>$config</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/config/config.php" />
+        <option value="$PROJECT_DIR$/app/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/config/services.php" />
+        <option value="$PROJECT_DIR$/app/models/Users.php" />
+        <option value="$PROJECT_DIR$/app/forms/modelForm.php" />
+        <option value="$PROJECT_DIR$/app/controllers/ControllerBase.php" />
+        <option value="$PROJECT_DIR$/common/helpers/ArrayHelper.php" />
+        <option value="$PROJECT_DIR$/common/helpers/JsonHelper.php" />
+        <option value="$PROJECT_DIR$/common/helpers/NavigationDataHelper.php" />
+        <option value="$PROJECT_DIR$/app/config/loader.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phalcon/dd" />
+      <path value="$PROJECT_DIR$/vendor/mtdowling/jmespath.php" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/aws/aws-sdk-php" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="152" />
+    <option name="y" value="65" />
+    <option name="width" value="1910" />
+    <option name="height" value="810" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vokuro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vokuro" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../servers/euller" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common/helpers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d914fd6b-4dc9-4d93-8242-b56e9b149139" name="Default Changelist" comment="" />
+      <created>1553281202048</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553281202048</updated>
+      <workItem from="1553281203144" duration="1633000" />
+      <workItem from="1553282886694" duration="386000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2019000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1547492" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32948583" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../servers/euller/Routers/AuthRouter.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../servers/euller/System/Helpers/JsonHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../servers/euller/System/Helpers/NavigationDataHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../servers/euller/Structures/Services/AuthServices.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="71" column="47" lean-forward="true" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../servers/euller/Structures/Services/HubspotService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../servers/euller/System/Core/Builder.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../servers/euller/System/Core/DateControl.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../servers/euller/System/Core/Executable.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../servers/euller/System/Exception/BusinessException.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../servers/euller/System/Helpers/ArrayHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../servers/euller/System/Integrations/HubSpotIntegration.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/helpers/NavigationDataHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/helpers/JsonHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/helpers/ArrayHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../servers/euller/System/Core/SharedFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../servers/euller/MainService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-239">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <element signature="e#22#47#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../servers/euller/Settings/Settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../servers/euller/public/info.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#7#26#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#7#28#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../servers/euller/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="32" selection-start-line="22" selection-start-column="29" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/library/third_party_libs.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dumps/last_sql_dumps.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding>
+            <element signature="e#7#37#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/uploads_directory.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
